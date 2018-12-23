@@ -1,7 +1,13 @@
 package com.company;
 
 public class Main {
+    /* Inicio
+      do Comentario de Bloco
+     */
 
+    /** Esses comentario e especial, pois permite que o programa JavaDoc leia esse comentario e gere documentacao **/
+
+    //Comentario de Linha
     public static void main(String[] args) {
         //Tipos Primitivos (que nao sao objetos)
 
