@@ -1,33 +1,24 @@
 package com.company;
 
 public class Main {
-    /* Inicio
-      do Comentario de Bloco
-     */
-
-    /** Esses comentario e especial, pois permite que o programa JavaDoc leia esse comentario e gere documentacao **/
-
-    //Comentario de Linha
     public static void main(String[] args) {
-        //Tipos Primitivos (que nao sao objetos)
 
-        boolean flag = true;
-        char ch = 'A';
-        byte b = 12;
-        short s = 24;
-        int i =  257;
-        long l = 890L; //observe o uso do L
-        float f = 3.1415F; //observe o uso do F
-        double d = 2.1828;
+        /* Em Java, um objeto e criado a partir de uma classe usando o operador new;
+            O operador new cria um novo objeto a partir de uma classe espeficiada e retorna
+            uma referencia para este objeto;
+         */
 
-        System.out.println("flag = " + flag);
-        System.out.println("ch = " + ch);
-        System.out.println("b = " + b);
-        System.out.println("s = " + s);
-        System.out.println("i = " + i);
-        System.out.println("l = " + l);
-        System.out.println("f = " + f);
-        System.out.println("d = " + d);
+        //Declara a variavel c como sendo do tipo Counter; isto e, c pode se referir a qualquer objeto Counter;
+        Counter c;
+
+        //Declara a variavel d como sendo do tipo Couter; cria um novo objeto Counter e retorna uma referencia;
+        Counter d = new Counter(); //O operador = atribui a referencia ao novo objeto para variavel d;
+
+        c = new Counter();
+
+        //Atribui a referencia para o mesmo objeto que c (o objeto que d referenciava nao tem mais nenhuma variavel referenciando-o)
+        d = c;
+
 
 
     }
