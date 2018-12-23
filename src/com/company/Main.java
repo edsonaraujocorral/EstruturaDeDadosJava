@@ -17,5 +17,8 @@ public class Main {
         }
 
         System.out.println("O valor do contador = " + counter01.getCount());
+
+        counter01.decrementCount(3);
+        System.out.println("O valor do contador = " + counter01.getCount());
     }
 }

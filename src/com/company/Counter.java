@@ -19,8 +19,11 @@ public class Counter {
         count++;
     }
 
-    //Metodo modificador para decrementar o contador;
+    //O nome de um metodo combinado com a quantidade e o tipo de seus parametros chama-se assinatura;
     public void decrementCount() {
         count--;
+    }
+    public void decrementCount(int num) {
+        this.count -= num;
     }
 }
