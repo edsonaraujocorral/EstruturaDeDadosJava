@@ -37,6 +37,6 @@ public class Gnome {
     public void setHeight(int newHeight) { this.height = newHeight; }
     public String getName() { return "I wont tell!!"; }
     public String getRealName() { return this.name; }
-    public void renameGnome(String s) { return this.name = s; }
+    public void renameGnome(String s) { this.name = s; }
 
 }
