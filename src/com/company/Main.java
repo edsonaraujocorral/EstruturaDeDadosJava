@@ -2,12 +2,12 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        //Objetos Strings
-        String nome = "Edson";
-        System.out.println("Seu nome e " + nome);
-
-        //A operacao basica para combinar strings chama-se concatenacao;
-        String s = "kile" + "meters";
-        System.out.println(s);
+        /* O operador new e usado para alocar espaco em memoria para o objeto e usar o
+            construtor do objeto para inicializar esse espaco.
+            O endereco deste espaco normalmente e atribuida para uma variavel de referencia.
+            Portando, uma variavel de referencia pode ser entendida como sendo um ponteiro para um
+            objeto...
+         */
+        Counter counter = new Counter();
     }
 }
