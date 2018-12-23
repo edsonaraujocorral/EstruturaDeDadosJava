@@ -20,6 +20,7 @@ public class Counter {
     }
 
     //O nome de um metodo combinado com a quantidade e o tipo de seus parametros chama-se assinatura;
+    //Dois metodos com mesma assinatura nao podem retornar valores diferentes...
     public void decrementCount() {
         count--;
     }
