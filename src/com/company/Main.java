@@ -1,27 +1,67 @@
 package com.company;
 
 public class Main {
-    /* Variaveis e constantes sao usadas em expressoes para definir novos valores e para modificar variaveis */
     public static void main(String[] args) {
+        //As expressoes em Java implicam em concatenar literais e variaveis usando operadores...
 
-        /* Um literal e qualquer valor "constante" que pode ser usado em uma atribuicao ou outro tipo
-            de expressao...
+        //Operador de Atribuicao..
+        //O operador padrao de atribuicao em Java e "="
+        //O valor da operacao de atribuicao e o valor da expressao que e atribuida..
+        int i, j = 25; //Funciona por que o operador "=" e avaliado da direta para a esquerda...
+
+        //Operadores Aritmeticos..
+        // % Operador Modulo tambem e conhecido como o operador de "resto", na medida em que fornece
+        //o resto de uma divisao inteira.
+        //definimos formalmente: n mod m = r => n = mq + r tq q 0 <= r < n
+        //E possivel utilizar parenteses em qualquer expressao para alterar a ordem de avaliacao..
+
+        //Operadores de Incremento(++) e Decremento(--);
+
+        /*Se tais operadores sao usados na frente de um nome de variavel, entao 1 e somado ou subtraido a variavel
+        e seu valor e empregado na expressao... */
+
+        /* Se for utilizado depois do nome da variavel, entao primeiro o valor e usado, e depois a variavel e incrementada
+            ou decremetada de 1;
          */
-        //Null := este e o unico literal que e um objeto e pode ser qualquer tipo de referencia..
+        int var = 8;
+        var++; //Pegar o valor e depois incrementar 1;
+        var--; //Pegar o valor e depois decrementar 1;
 
-        //Booleano := true e false;
+        ++var; //Primeiro incrementa 1 e depois pegar o valor;
+        --var; //Primeiro decrementa 1 e depois pegar o valor;
 
-        //Inteiro := int que corresponde um inteiro de 32 bits.. long que corresponde a inteiro longo de 64 bits e deve
-        //terminar por um L ou l, por exemplo: 156L ou -43l;
+        //Operadores Logicos := sao usados para comparacoes entre numeros;; O tipo resultante de uma comparacao e booelan..
+        //Os operadores == e != tambem podem ser usadas como referencias para objetos...
 
-        //Ponto Flutuante := o default para numeros de ponto flutuante, e ser do tipo double.
-        //para especificar um literal float, ele deve terminar por um "F" ou "f"..
-        //literais de ponto flutuante em notacao exponencial tambem sao aceitos, por exemplo: 3.25E2;
+        //Operadores Booleanos...
+        /*  ! negacao
+            && e condicional
+            || ou condicional
+         */
 
-        //Caractere := Um caractere e definido como um simbolo individual entre aspas simples..
+        //Operadores sobre bits para INTEIROS E BOOLEANOS
+        /*  ~ := complemento sobre bits
+            & := e sobre bits
+            | := ou sobre bits
+            ^ := ou exclusivo sobre bits
+            << := deslocamento de bits para esquerda, preenchendo com zeros;
+            >> := deslocamento de bits para direita, preenchendo com bits de sinal;
+            >>> := deslocamento de bits para direita, preenchendo com zeros;
 
-        //String := uma string e uma sequencia de caracteres entre aspas duplas.
+         */
 
+        //Operadores Operacionais de Atribuicao
+        //variavel op = expressa <=> variavel = variavel op expressao
+        int[] a = new int[10];
+        int value = 5;
+        a[value++] += 2; //a[6] = a[6] + 2;
+
+        //Concatenacao de Strings
+        //As strings podem ser compostas usando o operadores de concatenacao (+)
+        String rug = "carpet";
+        String dog = "spot";
+        String mess = rug + dog;
+        String answer = mess + "will cost me" + 5 + " hours!";
 
     }
 }
