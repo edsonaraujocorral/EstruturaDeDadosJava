@@ -35,7 +35,12 @@ public class Gnome {
     }
 
     public boolean isMagical() { return this.magical; }
-    public void setHeight(int newHeight) { this.height = newHeight; }
+
+    //Modificadores adicionais
+    public void setHeight(double newHeight) {
+        this.height = newHeight;
+    }
+
     public String getName() { return "I wont tell!!"; }
     public String getRealName() { return this.name; }
     public void renameGnome(String s) { this.name = s; }
