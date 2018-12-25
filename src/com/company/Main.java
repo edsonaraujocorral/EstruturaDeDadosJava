@@ -6,6 +6,14 @@ public class Main {
         para uma classe - o metodo main..
      */
     public static void main(String[] args) {
+        //Variaveis locais e blocos de codigos
+        {
+            double r;
+            int[] p1 = {3, 4};
+            int[] p2 = {4, 5};
+            int i = 31;
+            double e = 2.71828;
+        }
 
     }
 }
