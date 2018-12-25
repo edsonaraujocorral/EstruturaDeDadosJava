@@ -1,6 +1,7 @@
 package com.company;
 
 public class Gnome {
+
     //Variaveis de instancia
     public String name;
     public int age;
