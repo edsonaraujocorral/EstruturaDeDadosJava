@@ -40,5 +40,18 @@ public class Main {
                 System.out.println("Day off!!");
                 break;
         }
+
+        //While := este tipo de laco testa se uma certa condificao e satisfeita e executa o corpo do laco
+        //enquanto essa condicao for true...
+        boolean condicao = true;
+        int i = 0;
+        while(condicao) {
+            if(i >= 10) {
+                condicao = false;
+            } else {
+                System.out.println("i - " + i);
+                i++;
+            }
+        }
     }
 }
