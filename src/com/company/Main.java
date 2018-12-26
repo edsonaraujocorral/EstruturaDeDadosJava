@@ -53,5 +53,10 @@ public class Main {
                 i++;
             }
         }
+        //for := os lacos for oferecem uma repedicao codificada baseada em um indice inteiro..
+        for(int counter = 0; counter < 10; ++counter) {
+           //o escopo da variavel counter e limitado apenas ao corpo do laco...
+           System.out.println("counter = " + counter);
+        }
     }
 }
