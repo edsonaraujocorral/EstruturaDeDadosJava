@@ -5,6 +5,7 @@ import Code.Test;
 import java.io.*;
 import java.util.Scanner;
 import Code.Test;
+/** Comentario para Javadoc **/
 
 //Java permite que definicoes de classes sejam feitas dentro, isto e, aninhadas dentro
 //das definicoes de outras classes...
