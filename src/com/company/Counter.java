@@ -1,4 +1,4 @@
-package com.company;
+package com.company; //Um conjunto de classes relacionadas, todas pertencente ao mesmo subdiretorio, pode ser um package
 
 public class Counter {
     //Variavel de Instancia;

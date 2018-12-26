@@ -31,7 +31,7 @@ public class CreditCard {
         }
 
         this.balance += price;
-        return true;//Debito foi efetuado..
+        return true;//Debito foi efetuado...
     }
     public void makePayment(double payment) {
         this.balance -= payment;

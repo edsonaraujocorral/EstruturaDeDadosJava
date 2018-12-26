@@ -1,27 +1,18 @@
 package com.company;
 
+import Code.Test;
+
 import java.io.*;
 import java.util.Scanner;
 
+//Java permite que definicoes de classes sejam feitas dentro, isto e, aninhadas dentro
+//das definicoes de outras classes...
+//O uso principal de classes aninhadas e para definir uma classes fortemente conectada com outra...
 public class Main {
     public static void main(String[] args) {
-        CreditCard wallet[] = new CreditCard[10];
-        wallet[0] = new CreditCard("5391 0375 9387 5309",
-                "John Bowman", "California Savings", 0.0, 2500);
-        wallet[1] = new CreditCard("3485 0399 3395 1957",
-                "Jon Bowman", "California Federal", 0.0, 3500);
-
-        for(int i = 1; i <= 16; i++) {
-            wallet[0].chargelt((double) i);
-            wallet[1].chargelt(2.0*i);
-        }
-        for(int i = 0; i < 2; i++) {
-            CreditCard.printCard(wallet[i]);
-            while(wallet[i].getBalance() > 100.0){
-                wallet[i].makePayment(100.00);
-                System.out.println("New balance = " + wallet[i].getBalance());
-            }
-        }
-
+        Code.Test testClass = new Test(18);
+        System.out.println("Your age is " + testClass.getAge());
+        testClass.setAge(20);
+        System.out.println("Your new age is " + testClass.getAge());
     }
 }
