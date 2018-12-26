@@ -58,5 +58,21 @@ public class Main {
            //o escopo da variavel counter e limitado apenas ao corpo do laco...
            System.out.println("counter = " + counter);
         }
+        //do-while := Enqaunto os primeiros lacos testam a condicao antes de executar a primeira
+        //interacao, o laco do-while testa a condicao apos a interacao..
+        boolean testa = true;
+        int j = 0;
+        do {
+            System.out.println("Interacao: " + i);
+            i++;
+            if(i >= 10) {
+                testa = false;
+            }
+
+        }while(testa);
+
+        /* Regra de Java diz lacos se encerram quando a condicao nao e verdade..
+            (ao contrario da construcao repeat-until usada em outras linguagens)
+         */
     }
 }
