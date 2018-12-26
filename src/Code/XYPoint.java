@@ -20,6 +20,7 @@ public class XYPoint {
         this.x = xCoor;
         this.y = yCoor;
     }
+
     /**
      * Retorna o valor da abscissa
      * @return abscissa
