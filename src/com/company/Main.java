@@ -2,23 +2,19 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        /* Existem casos em que o Java ira executar
-            uma conversao implicita, de acordo com o tipo da variavel atribuida,
-            DESDE QUE NAO HAJA PERDA DE PRECISAO... */
+        //Controle de Fluxo
+        /* Os valores testados por um comando if devem ser uma
+            expressao booleana...
+         */
+        int x = 10;
 
-        int iresult, i = 3;
-        double dresult, d = 3.2;
-        dresult = i / d; // i foi convertido para double.
-        //iresult = i / d; //perda de precisao -> isso e um erro de complicacao...
-
-        //Uma situacao em que apenas a conversao implicita e permitida: concatenacao de String..
-        //Uma conversao explicita para um String nao e permitida
-        //Para executar conversoes para string, deve-se, usar o metodo toString()
-        String t = "Value = " + 12;
-        System.out.println(t);
-        String u = Integer.toString(1);
-        System.out.println("Value: " + u);
-
+        if(x > 10) {
+            System.out.println("X e maior a 10");
+        } else if(x == 15) {
+            System.out.println("X e igual a 15");
+        } else {
+            System.out.println("X e menor que 10 e nao e igual a 15");
+        }
 
     }
 }
