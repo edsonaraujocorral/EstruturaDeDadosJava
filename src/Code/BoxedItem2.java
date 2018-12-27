@@ -1,18 +1,15 @@
 package Code;
 
-/** Classe de objetos que podem ser vendidos, empacotados e despachados */
-public class BoxedItem implements Sellable, Transportable {
+public class BoxedItem2 implements InsurableItem  {
+
     private String descript;
     private int price;
     private int weight;
     private boolean haz;
-    private int height = 0;
-    private int width = 0;
-    private int depth = 0;
 
     /** Construtor */
-    public BoxedItem(String desc, int p, int w, boolean h) {
-        descript = desc;
+    public BoxedItem2(String dec, int p, int w, boolean h) {
+        descript = dec;
         price = p;
         weight = w;
         haz = h;
@@ -24,10 +21,4 @@ public class BoxedItem implements Sellable, Transportable {
     public int weight() { return weight; }
     public boolean isHazardous() { return haz; }
     public int insuredValue() { return price*2; }
-
-    public void setBox(int h, int w, int d) {
-        height = h;
-        width = w;
-        depth = d;
-    }
 }

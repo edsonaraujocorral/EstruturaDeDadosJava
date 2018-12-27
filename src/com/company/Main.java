@@ -3,20 +3,11 @@ package com.company;
 import Code.*;
 
 /*
-    Para que dois objetos possam interagir, eles precisam "conhecer" as varias
-    mensagens que cada um pode aceitar, ou seja, os metodos que cada objeto suporta...
- */
-/*
-    O paradigma de projeto orientado a objetos solicita que as classes especifiquem a
-    Interface de Programacao da Aplicacao (API)
- */
-
-/*
-    Uma interface e uma colecao de declaracoes de metodos sem dados e sem corpo..
+    A habilidade de estender de mais de uma classe e conhecida como "heranca multipla"
+    Em Java, a heranca multipla e permitida para interfaces, mas nao para classes...
  */
 public class Main {
     public static void main(String[] args) {
-        BoxedItem item = new BoxedItem("Wallet", 12, 20, false);
 
     }
 }
