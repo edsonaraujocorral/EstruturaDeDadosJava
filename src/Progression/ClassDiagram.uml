@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="243.5" y="-62.0">Progression.Progression</node>
+    <node x="0.0" y="251.0">Progression.ArithProgression</node>
+    <node x="516.0" y="251.0">Progression.GeomProgression</node>
+    <node x="228.0" y="251.0">Progression.FibonacciProgression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Progression.GeomProgression" target="Progression.Progression">
+      <point x="-54.25" y="-69.5" />
+      <point x="570.25" y="221.0" />
+      <point x="417.75" y="221.0" />
+      <point x="55.75" y="95.5" />
+    </edge>
+    <edge source="Progression.FibonacciProgression" target="Progression.Progression">
+      <point x="-67.0" y="-69.5" />
+      <point x="295.0" y="231.0" />
+      <point x="343.4166666666667" y="231.0" />
+      <point x="-18.583333333333314" y="95.5" />
+    </edge>
+    <edge source="Progression.ArithProgression" target="Progression.Progression">
+      <point x="-52.0" y="-69.5" />
+      <point x="52.0" y="211.0" />
+      <point x="269.08333333333337" y="211.0" />
+      <point x="-92.91666666666663" y="95.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="164.5" y="156.5" />
+  <SelectedNodes>
+    <node>Progression.Progression</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
