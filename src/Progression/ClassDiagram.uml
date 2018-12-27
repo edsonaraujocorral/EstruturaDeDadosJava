@@ -3,7 +3,7 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="243.5" y="-62.0">Progression.Progression</node>
+    <node x="250.5" y="0.0">Progression.Progression</node>
     <node x="0.0" y="251.0">Progression.ArithProgression</node>
     <node x="516.0" y="251.0">Progression.GeomProgression</node>
     <node x="228.0" y="251.0">Progression.FibonacciProgression</node>
@@ -30,9 +30,7 @@
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="164.5" y="156.5" />
-  <SelectedNodes>
-    <node>Progression.Progression</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Properties</Category>

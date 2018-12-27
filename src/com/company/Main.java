@@ -1,31 +1,22 @@
 package com.company;
 
-import Progression.*;
+import Code.*;
 
+/*
+    Para que dois objetos possam interagir, eles precisam "conhecer" as varias
+    mensagens que cada um pode aceitar, ou seja, os metodos que cada objeto suporta...
+ */
+/*
+    O paradigma de projeto orientado a objetos solicita que as classes especifiquem a
+    Interface de Programacao da Aplicacao (API)
+ */
+
+/*
+    Uma interface e uma colecao de declaracoes de metodos sem dados e sem corpo..
+ */
 public class Main {
     public static void main(String[] args) {
-        Progression prog;
-        //test ArithProgression
-        System.out.println("Arithmetic Progression with default increment: ");
-        prog = new ArithProgression();
-        prog.printProgression(10);
+        BoxedItem item = new BoxedItem("Wallet", 12, 20, false);
 
-        System.out.println("Arithmetic progression with increment 5: ");
-        prog = new ArithProgression(5);
-        prog.printProgression(10);
-
-        //Test GeomProgression
-        System.out.println("Geometric progression with default base: ");
-        prog = new GeomProgression();
-        prog.printProgression(10);
-
-        System.out.println("Geometric progression with base 3");
-        prog = new GeomProgression(3);
-        prog.printProgression(10);
-
-        //Test FibonacciProgression
-        System.out.println("Fibonacci progression with start values 4 and 6: ");
-        prog = new FibonacciProgression(4, 6);
-        prog.printProgression(10);
     }
 }
